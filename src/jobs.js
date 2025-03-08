@@ -1,0 +1,191 @@
+const jobs = [
+  {
+    id: 1,
+    title: "Software Engineer",
+    company: "Tech Solutions Inc.",
+    location: "Kathmandu",
+    employmentType: "Full-time",
+    experienceLevel: "Entry-level",
+    salary: 60000,
+    postedDate: "2024-10-22",
+    applicationDeadline: "2024-11-15",
+    jobDescription: `
+      We are looking for a Software Engineer to develop and maintain high-quality software solutions.
+      You will be working on exciting projects in an agile environment.
+    `,
+    skills: ["Java", "React", "Git", "SQL"],
+    applyLink: "https://techsolutions.com/careers/apply/1",
+    keyword: ["Software Engineer", "Java", "React", "Agile"],
+  },
+  {
+    id: 2,
+    title: "UI/UX Designer",
+    company: "Creative Minds",
+    location: "Pokhara",
+    employmentType: "Part-time",
+    experienceLevel: "Mid-level",
+    salary: 50000,
+    postedDate: "2024-10-20",
+    applicationDeadline: "2024-11-10",
+    jobDescription: `
+      Seeking a talented UI/UX designer to enhance our web and mobile applications.
+    `,
+    skills: ["Figma", "Sketch", "Photoshop", "User Research"],
+    applyLink: "https://creativeminds.com/careers/apply/2",
+    keyword: ["UI/UX Designer", "Figma", "Sketch", "User Research"],
+  },
+  {
+    id: 3,
+    title: "Data Scientist",
+    company: "DataCorp",
+    location: "Lalitpur",
+    employmentType: "Full-time",
+    experienceLevel: "Senior",
+    salary: 100000,
+    postedDate: "2024-10-18",
+    applicationDeadline: "2024-11-05",
+    jobDescription: `
+      We need a data scientist to help us derive actionable insights from large datasets.
+    `,
+    skills: ["Python", "R", "Machine Learning", "SQL"],
+    applyLink: "https://datacorp.com/careers/apply/3",
+    keyword: ["Data Scientist", "Python", "Machine Learning", "SQL"],
+  },
+  {
+    id: 4,
+    title: "Project Manager",
+    company: "BuildTech",
+    location: "Bhaktapur",
+    employmentType: "Contract",
+    experienceLevel: "Senior",
+    salary: 120000,
+    postedDate: "2024-10-19",
+    applicationDeadline: "2024-11-10",
+    jobDescription: `
+      Looking for a project manager with experience managing cross-functional teams.
+    `,
+    skills: ["Agile", "Scrum", "Leadership", "Communication"],
+    applyLink: "https://buildtech.com/careers/apply/4",
+    keyword: ["Project Manager", "Agile", "Leadership", "Scrum"],
+  },
+  {
+    id: 5,
+    title: "Mobile App Developer",
+    company: "Appify",
+    location: "Kathmandu",
+    employmentType: "Full-time",
+    experienceLevel: "Mid-level",
+    salary: 75000,
+    postedDate: "2024-10-17",
+    applicationDeadline: "2024-11-01",
+    jobDescription: `
+      Seeking a mobile app developer proficient in Flutter and React Native.
+    `,
+    skills: ["Flutter", "React Native", "Java", "Swift"],
+    applyLink: "https://appify.com/careers/apply/5",
+    keyword: ["Mobile App Developer", "Flutter", "React Native"],
+  },
+  {
+    id: 6,
+    title: "DevOps Engineer",
+    company: "Cloudy Solutions",
+    location: "Lalitpur",
+    employmentType: "Full-time",
+    experienceLevel: "Mid-level",
+    salary: 85000,
+    postedDate: "2024-10-21",
+    applicationDeadline: "2024-11-20",
+    jobDescription: `
+      Join our team as a DevOps engineer to manage and scale our cloud infrastructure.
+    `,
+    skills: ["AWS", "Docker", "Kubernetes", "CI/CD"],
+    applyLink: "https://cloudysolutions.com/careers/apply/6",
+    keyword: ["DevOps Engineer", "AWS", "Docker", "Kubernetes"],
+  },
+  {
+    id: 7,
+    title: "Front-End Developer",
+    company: "WebWorks",
+    location: "Pokhara",
+    employmentType: "Full-time",
+    experienceLevel: "Entry-level",
+    salary: 45000,
+    postedDate: "2024-10-16",
+    applicationDeadline: "2024-11-10",
+    jobDescription: `
+      Front-end developer needed with expertise in React and Tailwind CSS.
+    `,
+    skills: ["React", "JavaScript", "CSS", "Tailwind CSS"],
+    applyLink: "https://webworks.com/careers/apply/7",
+    keyword: ["Front-End Developer", "React", "Tailwind CSS"],
+  },
+  {
+    id: 8,
+    title: "Back-End Developer",
+    company: "ServerSide Inc.",
+    location: "Lalitpur",
+    employmentType: "Full-time",
+    experienceLevel: "Mid-level",
+    salary: 90000,
+    postedDate: "2024-10-21",
+    applicationDeadline: "2024-11-18",
+    jobDescription: `
+      Back-end developer needed with strong experience in Node.js, Express, and databases.
+    `,
+    skills: ["Node.js", "Express", "MongoDB", "SQL"],
+    applyLink: "https://serverside.com/careers/apply/8",
+    keyword: ["Back-End Developer", "Node.js", "Express", "MongoDB"],
+  },
+  {
+    id: 9,
+    title: "Product Manager",
+    company: "InnovateNow",
+    location: "Kathmandu",
+    employmentType: "Full-time",
+    experienceLevel: "Senior",
+    salary: 110000,
+    postedDate: "2024-10-22",
+    applicationDeadline: "2024-12-01",
+    jobDescription: `
+      We are looking for an experienced product manager to lead new product development.
+    `,
+    skills: ["Product Development", "Agile", "Communication", "Leadership"],
+    applyLink: "https://innovenow.com/careers/apply/9",
+    keyword: ["Product Manager", "Product Development", "Agile"],
+  },
+  {
+    id: 10,
+    title: "System Administrator",
+    company: "NetSecure Ltd.",
+    location: "Kathmandu",
+    employmentType: "Full-time",
+    experienceLevel: "Mid-level",
+    salary: 65000,
+    postedDate: "2024-10-15",
+    applicationDeadline: "2024-11-05",
+    jobDescription: `
+      System administrator needed to manage our server and network infrastructure.
+    `,
+    skills: ["Linux", "Windows Server", "Networking", "Security"],
+    applyLink: "https://netsecure.com/careers/apply/10",
+    keyword: ["System Administrator", "Linux", "Networking", "Security"],
+  },
+  {
+    id: 11,
+    title: "Digital Marketing Specialist",
+    company: "MarketingPro",
+    location: "Pokhara, Nepal",
+    employmentType: "Part-time",
+    experienceLevel: "Entry-level",
+    salary: 40000,
+    postedDate: "2024-10-18",
+    applicationDeadline: "2024-11-10",
+    jobDescription: `
+      Digital marketing specialist required to boost our online presence.
+    `,
+    skills: ["SEO", "Content Marketing", "Social Media", "Google Analytics"],
+    applyLink: "https://marketingpro.com/careers/apply/11",
+    keyword: ["Digital Marketing", "SEO", "Content Marketing"],
+  },
+];
+export default jobs;
