@@ -1,0 +1,10 @@
+numpy>=1.24.3,<1.26.0
+scikit-learn>=1.2.0,<1.3.0
+docx2txt>=0.8
+flask>=2.2.2
+flask-pymongo>=2.3.0
+pymupdf>=1.21.1
+spacy==3.5.0
+spacy-transformers==1.2.2
+flask_cors
+docx2txt
