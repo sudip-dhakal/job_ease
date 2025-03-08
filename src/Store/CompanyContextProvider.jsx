@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { companyContext } from "./store";
-import useGetAllCompany from "@/hooks/useGetAllCompany";
+import useGetAllCompany from "@/Hooks/useGetAllCompany";
 
 export default function CompanyContextProvider({ children }) {
   let [singlecompany, setSingleCompany] = useState("");

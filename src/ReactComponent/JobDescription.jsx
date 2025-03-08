@@ -4,7 +4,7 @@ import axios from "axios";
 import { toast } from "sonner";
 import itemContext, { jobContext } from "@/Store/store";
 import { APPLICATION_API_END_POINT, JOB_API_END_POINT } from "@/utils/constant";
-import useGetJobById from "@/hooks/useGetJobById";
+import useGetJobById from "@/Hooks/useGetJobById";
 
 export default function JobDescription() {
   const [loading, setloading] = useState(false);

@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import Joblist from "../ReactComponent/Jobcard";
 import jobs from "../jobs";
 import { jobContext } from "@/Store/store";
-import useGetAlljob from "@/hooks/useGetAlljob";
+import useGetAlljob from "@/Hooks/useGetAllJob";
 import LoadingSpinner from "./LoadingSpinner";
 
 export default function JobListing() {

@@ -1,5 +1,5 @@
 import Navbar from "@/Homepage/Navbar";
-import useGetCOmpanyById from "@/hooks/useGetCOmpanyById";
+import useGetCOmpanyById from "@/Hooks/useGetCOmpanyById";
 import { companyContext } from "@/Store/store";
 import { ADMIN_API_END_POINT } from "@/utils/constant";
 import axios from "axios";

@@ -5,7 +5,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { toast } from "sonner";
 import CompanyModel from "./Companies";
-import useGetAllCompany from "@/hooks/useGetAllCompany";
+import useGetAllCompany from "@/Hooks/useGetAllCompany";
 
 export default function CreateCompany() {
   let navigate = useNavigate();

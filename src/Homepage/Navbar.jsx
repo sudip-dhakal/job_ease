@@ -10,8 +10,8 @@ import {
 import { IoPersonCircleSharp } from "react-icons/io5";
 import { IoIosLogOut } from "react-icons/io";
 import itemContext from "@/Store/store";
-import useGetAlljob from "@/hooks/useGetAlljob";
-import useGetAllCompany from "@/hooks/useGetAllCompany";
+import useGetAlljob from "@/Hooks/useGetAllJob";
+import useGetAllCompany from "@/Hooks/useGetAllCompany";
 import axios from "axios";
 import { USER_API_END_POINT } from "@/utils/constant";
 import { toast } from "sonner";

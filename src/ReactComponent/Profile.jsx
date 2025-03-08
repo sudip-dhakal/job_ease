@@ -6,7 +6,7 @@ import Skillset from "./Skillset";
 import lists from "./UserJobAppliedDetails";
 import Edit from "./Edit";
 import itemContext, { ApplicationContext } from "@/Store/store";
-import useGetAppliedJob from "@/hooks/useGetAppliedJob";
+import useGetAppliedJob from "@/Hooks/useGetAppliedJob";
 
 const Profile = () => {
   const [userAppliedList, setUserAppliedList] = useState(lists);

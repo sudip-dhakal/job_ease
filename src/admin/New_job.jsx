@@ -1,6 +1,6 @@
 import Navbar from "@/Homepage/Navbar";
-import useGetAllCompany from "@/hooks/useGetAllCompany";
-import useGetJobById from "@/hooks/useGetJobById";
+import useGetAllCompany from "@/Hooks/useGetAllCompany";
+import useGetJobById from "@/Hooks/useGetJobById";
 import itemContext, { companyContext, jobContext } from "@/Store/store";
 import { JOB_API_END_POINT } from "@/utils/constant";
 import axios from "axios";

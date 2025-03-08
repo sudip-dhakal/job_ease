@@ -8,9 +8,9 @@ import { FaEye } from "react-icons/fa";
 import { Link, useNavigate } from "react-router-dom";
 
 import New_job from "./New_job";
-import useGetAlljob from "@/hooks/useGetAlljob";
+import useGetAlljob from "@/Hooks/useGetAllJob";
 import { companyContext, jobContext } from "@/Store/store";
-import useGetAdminJob from "@/hooks/useGetAdminJob";
+import useGetAdminJob from "@/Hooks/useGetAdminJob";
 import axios from "axios";
 import { JOB_API_END_POINT } from "@/utils/constant";
 import { toast } from "sonner";

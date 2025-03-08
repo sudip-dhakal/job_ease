@@ -6,7 +6,7 @@ import JobListing from "./Homepage/JobListing";
 import Footer from "./Homepage/Footer";
 import Navbar from "./Homepage/Navbar";
 import { useNavigate } from "react-router-dom";
-import useGetAlljob from "./hooks/useGetAlljob.jsx";
+import useGetAlljob from "./Hooks/useGetAllJob.jsx";
 import axios from "axios";
 import itemContext from "./Store/store";
 import FeaturedJobs from "./ReactComponent/FeaturedJobs";
