@@ -4,7 +4,7 @@ import { FaSearch } from "react-icons/fa";
 import Joblist from "./Jobcard";
 import { Slider } from "../components/ui/slider";
 import itemContext, { jobContext } from "@/Store/store";
-import useGetAlljob from "@/Hooks/useGetAllJob";
+import useGetAlljob from "@/Hooks/useGetAlljob";
 
 export default function Job() {
   useGetAlljob();
