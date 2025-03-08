@@ -11,8 +11,8 @@ lerna-debug.log*
 # Ignore all node_modules
 node_modules/
 
-uploads/
-static/
+# uploads/
+# static/
 
 pids
 *.pid

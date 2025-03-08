@@ -1,0 +1,16 @@
+Cloud Engineer
+Location: Remote
+Experience Level: Mid-Level
+Job Description:
+We are hiring a Cloud Engineer to design and implement cloud solutions, ensuring scalability, security, and performance. The role involves managing cloud infrastructure and providing support for cloud-based services.
+Responsibilities:
+
+Design and deploy cloud infrastructure using AWS, Azure, or Google Cloud.
+Automate cloud operations using Infrastructure as Code (IaC) tools like Terraform.
+Monitor and optimize cloud resources for cost-effectiveness.
+Ensure compliance with data security and privacy standards.
+Requirements:
+Bachelor’s degree in IT, Cloud Computing, or related field.
+Hands-on experience with AWS, Azure, or Google Cloud.
+Familiarity with Docker and Kubernetes.
+Strong understanding of networking and virtualization.
